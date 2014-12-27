@@ -13,7 +13,8 @@ mkdir $INSTALLDIR
 echo "Installing curl, because why not really seriously."
 curl -sL https://deb.nodesource.com/setup | sudo bash -
 
-
+echo "Installing build-essential."
+apt-get install -y build-essential
 
 echo "Setting up an SSH key for use."
 ssh-keygen -t rsa -N -f id_rsa -C "$EMAIL"
