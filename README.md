@@ -1,6 +1,7 @@
 # Dev Machine Bash Script Setup
 
 [![Stories in Ready](https://badge.waffle.io/Adron/devbuild.png?label=ready&title=Ready)](https://waffle.io/Adron/devbuild)
+
 [![Throughput Graph](https://graphs.waffle.io/Adron/devbuild/throughput.svg)](https://waffle.io/Adron/devbuild/metrics)
 
 ##Description
