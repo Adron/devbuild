@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Adron/devbuild.png?label=ready&title=Ready)](https://waffle.io/Adron/devbuild)
 # Dev Machine Bash Script Setup
 
 ##Description
