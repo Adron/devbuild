@@ -2,9 +2,16 @@
 
 clear
 
+add-apt-repository ppa:numix/ppa -y
+add-apt-repository ppa:noobslab/themes -y
+
+mkdir script-downloads
+cd script-downloads
+
+wget https://raw.githubusercontent.com/Adron/devbuild/master/scripts/configuration/disable-online-searches-from-dash.sh
+wget https://raw.githubusercontent.com/Adron/devbuild/master/scripts/configuration/remove-guest-account.sh
+wget https://raw.githubusercontent.com/Adron/devbuild/master/scripts/configuration/set-scrollbars-normal.sh
+wget https://raw.githubusercontent.com/Adron/devbuild/master/scripts/configuration/unity-tweak-tool.sh
+
 apt-get update
 apt-get upgrade
-
-wget /scripts/disable-online-searches-from-dash
-wget /scripts/remove-guest-account
-wget /scripts/unity-tweak-tool.sh
