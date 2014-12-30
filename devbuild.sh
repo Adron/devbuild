@@ -16,5 +16,9 @@ wget https://raw.githubusercontent.com/Adron/devbuild/master/scripts/themes/them
 
 sh themes.sh
 
-apt-get update
-apt-get upgrade
+apt-get update -y
+apt-get upgrade -y
+
+cd ..
+
+shutdown -r now
