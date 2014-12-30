@@ -9,7 +9,5 @@ This bash script is setup to download all of the development tools and dependenc
 
 ##Use and Setup
 	
-1. Clone this repo. `git clone git@github.com:Adron/devbuild.git`.
-* Set the permissions on the file to execute `chmod u+rwx devbuild.sh`.
-* Add the path of the newly cloned file `export PATH="$PATH:~/devbuildscript"` (of course, this is wherever you've just cloned the repo to).
-* Run the script with `sh devbuild.sh`.
+1. Download the devbuild.sh script `wget https://raw.githubusercontent.com/Adron/devbuild/master/devbuild.sh`
+* Run the script with `sudo sh devbuild.sh`.
